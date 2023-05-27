@@ -15,8 +15,7 @@ void main() {
             child: Padding(
               padding: EdgeInsets.all(30),
               child: Image(
-                image: NetworkImage(
-                    'https://docs.flutter.dev/assets/images/flutter-logo-sharing.png'),
+                image: AssetImage('images/flutter-dart.jpg'),
               ),
             ),
           ),
