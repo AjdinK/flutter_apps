@@ -1,3 +1,5 @@
+import 'dart:js_util';
+
 import 'package:flutter/material.dart';
 import 'package:dynamic_color/dynamic_color.dart';
 
@@ -69,6 +71,11 @@ class MyApp extends StatelessWidget {
                         fontWeight: FontWeight.bold,
                         fontSize: 17),
                   ),
+                ),
+                SizedBox(
+                  width: 200,
+                  height: 200,
+                  child: Divider(color: Colors.black),
                 ),
                 Card(
                   margin: EdgeInsets.symmetric(vertical: 20, horizontal: 30),
