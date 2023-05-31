@@ -9,7 +9,7 @@ void main() {
           title: Text("game_app"),
           backgroundColor: Colors.indigo[900],
         ),
-        body: ImapePage(),
+        body: const ImapePage(),
       ),
     ),
   );
@@ -23,7 +23,7 @@ class ImapePage extends StatelessWidget {
     return Column(
       mainAxisAlignment: MainAxisAlignment.spaceEvenly,
       children: [
-        Center(
+        const Center(
           child: Text(
             "try one more time",
             style: TextStyle(
@@ -34,12 +34,12 @@ class ImapePage extends StatelessWidget {
           children: [
             Expanded(
               child: Padding(
-                padding: EdgeInsets.all(40),
+                padding: const EdgeInsets.all(40),
                 child: TextButton(
                   onPressed: () {
                     print("you pressed left button");
                   },
-                  child: Image(
+                  child: const Image(
                     image: AssetImage('images/image-1.png'),
                   ),
                 ),
@@ -47,12 +47,12 @@ class ImapePage extends StatelessWidget {
             ),
             Expanded(
               child: Padding(
-                padding: EdgeInsets.all(40),
+                padding: const EdgeInsets.all(40),
                 child: TextButton(
                   onPressed: () {
                     print('you pressed right button');
                   },
-                  child: Image(
+                  child: const Image(
                     image: AssetImage('images/image-1.png'),
                   ),
                 ),
